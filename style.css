@@ -6,8 +6,22 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 240px;
+  background-color: #11101d;
+  padding: 6px 14px;
 }
