@@ -69,6 +69,10 @@ body {
   line-height: 50px;
 }
 
+.sidebar ul li .tooltip {
+  position: absolute;
+}
+
 .sidebar ul li input {
   position: absolute;
   height: 100%;
@@ -118,11 +122,14 @@ body {
   color: #fff;
   bottom: 0;
   left: 0;
+  width: 100%;
 }
 
 .sidebar .profile_content .profile {
   position: relative;
   padding: 10px 6px;
+  height: 60px;
+  background-color: #1d1b31;
 }
 
 .profile_content .profile .profile_details {
@@ -144,4 +151,35 @@ body {
 .profile .profile_details .name {
   font-size: 15px;
   font-weight: 400;
+}
+
+.profile .profile_details .job {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.profile #log_out {
+  position: absolute;
+  left: 88%;
+  bottom: 5px;
+  transform: translateX(-50%);
+  min-height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+.home_content {
+  position: absolute;
+  height: 100%;
+  /* background-color: #eee; */
+  width: calc(100% - 240px);
+  left: 240px;
+}
+
+.home_content .text {
+  font-size: 25px;
+  font-weight: 500;
+  color: #1d1b31;
+  margin: 12px;
 }
