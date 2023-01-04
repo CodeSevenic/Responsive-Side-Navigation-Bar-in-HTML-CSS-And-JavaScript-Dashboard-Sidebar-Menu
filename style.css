@@ -89,6 +89,7 @@ body {
   position: absolute;
   z-index: 99;
   color: #fff;
+  font-size: 22px;
 }
 
 .sidebar ul li a {
@@ -110,4 +111,37 @@ body {
   border-radius: 12px;
   line-height: 50px;
   text-align: center;
+}
+
+.sidebar .profile_content {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  left: 0;
+}
+
+.sidebar .profile_content .profile {
+  position: relative;
+  padding: 10px 6px;
+}
+
+.profile_content .profile .profile_details {
+  display: flex;
+  align-items: center;
+}
+
+.profile .profile_details img {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.profile .profile_details .name_job {
+  margin-left: 10px;
+}
+
+.profile .profile_details .name {
+  font-size: 15px;
+  font-weight: 400;
 }
