@@ -85,6 +85,12 @@ body {
   color: #fff;
 }
 
+.sidebar ul li .bx-search {
+  position: absolute;
+  z-index: 99;
+  color: #fff;
+}
+
 .sidebar ul li a {
   color: #fff;
   display: flex;
@@ -98,7 +104,7 @@ body {
   color: #11101d;
 }
 
-.sidebar ul li a i {
+.sidebar ul li i {
   height: 50px;
   min-width: 50px;
   border-radius: 12px;
