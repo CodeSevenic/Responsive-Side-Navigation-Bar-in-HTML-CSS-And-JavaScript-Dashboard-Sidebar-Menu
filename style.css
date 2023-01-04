@@ -25,3 +25,10 @@ body {
   background-color: #11101d;
   padding: 6px 14px;
 }
+
+.sidebar .logo_content .logo {
+  color: #fff;
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
