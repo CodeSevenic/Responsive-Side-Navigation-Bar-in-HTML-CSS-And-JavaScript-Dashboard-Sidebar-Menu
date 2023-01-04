@@ -6,10 +6,10 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
 }
 
 body {
+  font-family: 'Poppins', sans-serif;
   position: relative;
   min-height: 100vh;
   width: 100%;
@@ -31,4 +31,32 @@ body {
   display: flex;
   height: 50px;
   width: 100%;
+  align-items: center;
+}
+
+.logo_content .logo i {
+  font-size: 28px;
+  margin-right: 5px;
+}
+
+.logo_content .logo .logo_name {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sidebar #btn {
+  position: absolute;
+  color: #fff;
+  left: 90%;
+  top: 6px;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  transform: translateX(-50%);
+}
+
+.sidebar ul {
+  margin-top: 20px;
 }
